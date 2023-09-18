@@ -15,7 +15,6 @@ phases:
   pre_build:
     commands:
       - echo Prebuild ops
-      - apt install pip
       - pip install -r /guicorn/requirements.txt
 
   build:
